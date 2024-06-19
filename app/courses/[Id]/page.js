@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = ({param}) => {
+const page = ({params}) => {
   
   return (
     <div>
     
-    <h1>{param.add}</h1>
+    <h1>{params.Id}</h1>
 </div>
 
   )

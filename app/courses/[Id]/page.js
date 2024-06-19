@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = ({params}) => {
+const page = ({param}) => {
   
   return (
     <div>
     
-    <h1>Current Route is -{params.add}</h1>
+    <h1>{param.add}</h1>
 </div>
 
   )
